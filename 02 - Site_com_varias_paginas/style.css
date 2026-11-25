@@ -53,6 +53,10 @@ form {
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
+    margin-bottom: 100px;
+    background: #d3d3d3;
+    padding: 20px 20px 5px 20px;
+    border-radius: 5px;
 }
 
 label {
@@ -64,4 +68,37 @@ input, textarea {
     margin-top: 5px;
 }
 
+button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    background-color: #03a30f;
+    cursor: pointer
+}
+
+
+button:hover{
+    margin: 10px;
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    background-color: #03a30f;
+    cursor: pointer
+}
+
+#container-contato {
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px;
+}
+
+#container-contato img {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+}
 
